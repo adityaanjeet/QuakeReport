@@ -3,12 +3,12 @@ package com.example.quake_report;
 
 public class Earthquake {
 
-    private int mMagnitude;
+    private String mMagnitude;
     private String mLocation;
     private String mDate;
 
 
-    public Earthquake(int magnitude, String location, String date) {
+    public Earthquake(String magnitude, String location, String date) {
 
         mMagnitude = magnitude;
         mLocation = location;
@@ -16,7 +16,7 @@ public class Earthquake {
 
     }
 
-    public int getmMagnitude() {
+    public String getmMagnitude() {
 
         return mMagnitude;
 

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xns="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal">
 
     <TextView
@@ -9,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:id="@+id/earthquake_magnitude"
-        android:text="2.2"/>
+        android:tooltipText="2.2"/>
 
     <TextView
         android:layout_width="0dp"
